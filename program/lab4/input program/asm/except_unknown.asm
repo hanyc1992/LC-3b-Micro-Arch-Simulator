@@ -1,0 +1,4 @@
+.ORIG x1c00
+
+HALT
+	.END

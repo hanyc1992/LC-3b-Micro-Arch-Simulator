@@ -1,0 +1,10 @@
+改正地方1：
+
+LDB/LDW/STB/STW 中的X
+
+在exception 中也要能正常的LDB/LDW/STB/STW ，而错误的地方在于在protection exception 中X始终为1
+
+
+
+
+已改，这个应该是对了，但是还有错误

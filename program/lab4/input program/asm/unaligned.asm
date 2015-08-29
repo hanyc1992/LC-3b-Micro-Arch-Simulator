@@ -1,0 +1,33 @@
+		.ORIG x3000
+		
+		LEA R0, INITLOC
+		LDW R0, R0, #0
+		
+		AND R1, R1, #0
+		ADD R1, R1, #1
+		STW R1, R0, #0
+		
+		LEA R1, ADLOC
+		LDW R1, R1, #0
+		LEA R2, SUMLOC
+		LDW R2, R2, #0
+		LEA R3, NUM
+		LDW R3, R3, #0
+		
+		AND R4, R4, #0
+LOOP	LDB R5, R1, #0
+		ADD R4, R4, R5
+		ADD R1, R1, #1
+		ADD R3, R3, #-1
+		BRp	LOOP
+		
+		STW R4, R1, #0
+		STW R4, R2, #0
+
+
+
+INITLOC	.FILL x4000
+ADLOC	.FILL xC000
+SUMLOC	.FILL xc017
+NUM		.FILL #20
+		.END

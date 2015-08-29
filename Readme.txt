@@ -1,0 +1,1 @@
+Implemented an assembler for LC-3b ISA using C. Designed and implemented a micro-architecture level single-cycle simulator with function of virtual memory translation and exception/interrupt handling. Implemented a simulator for five-stage pipelined LC-3b to check pipeline stalls caused by data/branch dependency.

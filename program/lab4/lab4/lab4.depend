@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1414375241 source:c:\users\hanyc_000\desktop\lab4\lab4\lc3bsim4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1414416325 source:e:\codeblocks\hyc files\lab4\lab4\lc3bsim4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
